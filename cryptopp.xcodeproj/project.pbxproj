@@ -7,8 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		879DD61A171FE8DD0004536B /* 3way.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E3F171BD9C400298F73 /* 3way.h */; };
+		879DD61B171FE8DD0004536B /* adler32.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E42171BD9C400298F73 /* adler32.h */; };
+		879DD61C171FE8DD0004536B /* aes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E43171BD9C400298F73 /* aes.h */; };
+		879DD61D171FE8DD0004536B /* algebra.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E45171BD9C400298F73 /* algebra.h */; };
+		879DD61E171FE8DD0004536B /* algparam.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E47171BD9C400298F73 /* algparam.h */; };
+		879DD61F171FE8DD0004536B /* arc4.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E49171BD9C400298F73 /* arc4.h */; };
+		879DD620171FE8DD0004536B /* argnames.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E4A171BD9C400298F73 /* argnames.h */; };
+		879DD621171FE8DD0004536B /* asn.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E4C171BD9C400298F73 /* asn.h */; };
+		879DD622171FE8DD0004536B /* authenc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E4E171BD9C400298F73 /* authenc.h */; };
+		879DD623171FE8DD0004536B /* base32.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E50171BD9C400298F73 /* base32.h */; };
+		879DD624171FE8DD0004536B /* base64.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E52171BD9C400298F73 /* base64.h */; };
+		879DD625171FE8DD0004536B /* basecode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E54171BD9C400298F73 /* basecode.h */; };
+		879DD626171FE8DD0004536B /* blowfish.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E5A171BD9C400298F73 /* blowfish.h */; };
+		879DD627171FE8DD0004536B /* blumshub.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E5C171BD9C400298F73 /* blumshub.h */; };
+		879DD628171FE8DD0004536B /* camellia.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E5E171BD9C400298F73 /* camellia.h */; };
+		879DD629171FE8DD0004536B /* cast.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E60171BD9C400298F73 /* cast.h */; };
+		879DD62A171FE8DD0004536B /* cbcmac.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E63171BD9C400298F73 /* cbcmac.h */; };
+		879DD62B171FE8DD0004536B /* ccm.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E65171BD9C400298F73 /* ccm.h */; };
+		879DD62C171FE8DD0004536B /* channels.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E67171BD9C400298F73 /* channels.h */; };
+		879DD62D171FE8DD0004536B /* cmac.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E69171BD9C400298F73 /* cmac.h */; };
+		879DD62E171FE8DD0004536B /* config.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E6A171BD9C400298F73 /* config.h */; };
+		879DD62F171FE8DD0004536B /* cpu.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E6C171BD9C400298F73 /* cpu.h */; };
+		879DD630171FE8DD0004536B /* crc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E6E171BD9C400298F73 /* crc.h */; };
+		879DD631171FE8DD0004536B /* cryptlib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E7C171BD9C400298F73 /* cryptlib.h */; };
+		879DD632171FE8DD0004536B /* default.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E81171BD9C400298F73 /* default.h */; };
+		879DD633171FE8DD0004536B /* des.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E83171BD9C400298F73 /* des.h */; };
+		879DD634171FE8DD0004536B /* dh.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E86171BD9C400298F73 /* dh.h */; };
+		879DD635171FE8DD0004536B /* dh2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E88171BD9C400298F73 /* dh2.h */; };
+		879DD636171FE8DD0004536B /* dll.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E8A171BD9C400298F73 /* dll.h */; };
+		879DD637171FE8DD0004536B /* dmac.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E8E171BD9C400298F73 /* dmac.h */; };
+		879DD638171FE8DD0004536B /* dsa.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E91171BD9C400298F73 /* dsa.h */; };
+		879DD639171FE8DD0004536B /* eax.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E93171BD9C400298F73 /* eax.h */; };
+		879DD63A171FE8DD0004536B /* ec2n.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E95171BD9C400298F73 /* ec2n.h */; };
+		879DD63B171FE8DD0004536B /* eccrypto.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E97171BD9C400298F73 /* eccrypto.h */; };
+		879DD63C171FE8DD0004536B /* ecp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E99171BD9C400298F73 /* ecp.h */; };
+		879DD63D171FE8DD0004536B /* elgamal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E9B171BD9C400298F73 /* elgamal.h */; };
+		879DD63E171FE8DD0004536B /* emsa2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E9D171BD9C400298F73 /* emsa2.h */; };
+		879DD63F171FE8DD0004536B /* eprecomp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E9F171BD9C400298F73 /* eprecomp.h */; };
+		879DD640171FE8DD0004536B /* esign.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EA1171BD9C400298F73 /* esign.h */; };
+		879DD641171FE8DD0004536B /* factory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EA2171BD9C400298F73 /* factory.h */; };
+		879DD642171FE8DD0004536B /* files.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EA4171BD9C400298F73 /* files.h */; };
+		879DD643171FE8DD0004536B /* filters.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EA6171BD9C400298F73 /* filters.h */; };
+		879DD644171FE8DD0004536B /* fips140.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EA8171BD9C400298F73 /* fips140.h */; };
+		879DD645171FE8DD0004536B /* fltrimpl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EAB171BD9C400298F73 /* fltrimpl.h */; };
+		879DD646171FE8DD0004536B /* gcm.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EAD171BD9C400298F73 /* gcm.h */; };
+		879DD647171FE8DD0004536B /* gf2_32.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EAF171BD9C400298F73 /* gf2_32.h */; };
+		879DD648171FE8DD0004536B /* gf2n.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EB1171BD9C400298F73 /* gf2n.h */; };
+		879DD649171FE8DD0004536B /* gf256.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EB3171BD9C400298F73 /* gf256.h */; };
+		879DD64A171FE8DD0004536B /* gfpcrypt.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EB5171BD9C400298F73 /* gfpcrypt.h */; };
+		879DD64B171FE8DD0004536B /* gost.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EB8171BD9C400298F73 /* gost.h */; };
+		879DD64C171FE8DD0004536B /* gzip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EBA171BD9C400298F73 /* gzip.h */; };
+		879DD64D171FE8DD0004536B /* hex.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EBC171BD9C400298F73 /* hex.h */; };
+		879DD64E171FE8DD0004536B /* hmac.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EBE171BD9C400298F73 /* hmac.h */; };
+		879DD64F171FE8DD0004536B /* hrtimer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EC0171BD9C400298F73 /* hrtimer.h */; };
+		879DD650171FE8DD0004536B /* ida.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EC2171BD9C400298F73 /* ida.h */; };
+		879DD651171FE8DD0004536B /* idea.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EC4171BD9C400298F73 /* idea.h */; };
+		879DD652171FE8DD0004536B /* integer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EC6171BD9C400298F73 /* integer.h */; };
+		879DD653171FE8DD0004536B /* iterhash.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EC8171BD9C400298F73 /* iterhash.h */; };
+		879DD654171FE8DD0004536B /* lubyrack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99ECA171BD9C400298F73 /* lubyrack.h */; };
+		879DD655171FE8DD0004536B /* luc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99ECC171BD9C400298F73 /* luc.h */; };
+		879DD656171FE8DD0004536B /* mars.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99ECE171BD9C400298F73 /* mars.h */; };
+		879DD657171FE8DD0004536B /* md2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99ED1171BD9C400298F73 /* md2.h */; };
+		879DD658171FE8DD0004536B /* md4.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99ED3171BD9C400298F73 /* md4.h */; };
+		879DD659171FE8DD0004536B /* md5.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99ED5171BD9C400298F73 /* md5.h */; };
+		879DD65A171FE8DD0004536B /* mdc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99ED6171BD9C400298F73 /* mdc.h */; };
+		879DD65B171FE8DD0004536B /* misc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99ED8171BD9C400298F73 /* misc.h */; };
+		879DD65C171FE8DD0004536B /* modarith.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99ED9171BD9C400298F73 /* modarith.h */; };
+		879DD65D171FE8DD0004536B /* modes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EDB171BD9C400298F73 /* modes.h */; };
+		879DD65E171FE8DD0004536B /* modexppc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EDC171BD9C400298F73 /* modexppc.h */; };
+		879DD65F171FE8DD0004536B /* mqueue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EDE171BD9C400298F73 /* mqueue.h */; };
+		879DD660171FE8DD0004536B /* mqv.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EE0171BD9C400298F73 /* mqv.h */; };
+		879DD661171FE8DD0004536B /* nbtheory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EE2171BD9C400298F73 /* nbtheory.h */; };
+		879DD662171FE8DD0004536B /* network.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EE4171BD9C400298F73 /* network.h */; };
+		879DD663171FE8DD0004536B /* nr.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EE5171BD9C400298F73 /* nr.h */; };
+		879DD664171FE8DD0004536B /* oaep.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EE7171BD9C400298F73 /* oaep.h */; };
+		879DD665171FE8DD0004536B /* oids.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EE8171BD9C400298F73 /* oids.h */; };
+		879DD666171FE8DD0004536B /* osrng.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EEA171BD9C400298F73 /* osrng.h */; };
+		879DD667171FE8DD0004536B /* panama.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EEC171BD9C400298F73 /* panama.h */; };
+		879DD668171FE8DD0004536B /* pch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EEE171BD9C400298F73 /* pch.h */; };
+		879DD669171FE8DD0004536B /* pkcspad.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EF0171BD9C400298F73 /* pkcspad.h */; };
+		879DD66A171FE8DD0004536B /* polynomi.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EF2171BD9C400298F73 /* polynomi.h */; };
+		879DD66B171FE8DD0004536B /* pssr.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EF4171BD9C400298F73 /* pssr.h */; };
+		879DD66C171FE8DD0004536B /* pubkey.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EF6171BD9C400298F73 /* pubkey.h */; };
+		879DD66D171FE8DD0004536B /* pwdbased.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EF7171BD9C400298F73 /* pwdbased.h */; };
+		879DD66E171FE8DD0004536B /* queue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EF9171BD9C400298F73 /* queue.h */; };
+		879DD66F171FE8DD0004536B /* rabin.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EFB171BD9C400298F73 /* rabin.h */; };
+		879DD670171FE8DD0004536B /* randpool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EFD171BD9C400298F73 /* randpool.h */; };
+		879DD671171FE8DD0004536B /* rc2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99EFF171BD9C400298F73 /* rc2.h */; };
+		879DD672171FE8DD0004536B /* rc5.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F01171BD9C400298F73 /* rc5.h */; };
+		879DD673171FE8DD0004536B /* rc6.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F03171BD9C400298F73 /* rc6.h */; };
+		879DD674171FE8DD0004536B /* resource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F07171BD9C400298F73 /* resource.h */; };
+		879DD675171FE8DD0004536B /* rijndael.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F09171BD9C400298F73 /* rijndael.h */; };
+		879DD676171FE8DD0004536B /* ripemd.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F0B171BD9C400298F73 /* ripemd.h */; };
+		879DD677171FE8DD0004536B /* rng.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F0D171BD9C400298F73 /* rng.h */; };
+		879DD678171FE8DD0004536B /* rsa.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F0F171BD9C400298F73 /* rsa.h */; };
+		879DD679171FE8DD0004536B /* rw.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F11171BD9C400298F73 /* rw.h */; };
+		879DD67A171FE8DD0004536B /* safer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F13171BD9C400298F73 /* safer.h */; };
+		879DD67B171FE8DD0004536B /* salsa.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F15171BD9C400298F73 /* salsa.h */; };
+		879DD67C171FE8DD0004536B /* seal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F17171BD9C400298F73 /* seal.h */; };
+		879DD67D171FE8DD0004536B /* secblock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F18171BD9C400298F73 /* secblock.h */; };
+		879DD67E171FE8DD0004536B /* seckey.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F19171BD9C400298F73 /* seckey.h */; };
+		879DD67F171FE8DD0004536B /* seed.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F1B171BD9C400298F73 /* seed.h */; };
+		879DD680171FE8DD0004536B /* serpent.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F1D171BD9C400298F73 /* serpent.h */; };
+		879DD681171FE8DD0004536B /* serpentp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F1E171BD9C400298F73 /* serpentp.h */; };
+		879DD682171FE8DD0004536B /* sha.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F20171BD9C400298F73 /* sha.h */; };
+		879DD683171FE8DD0004536B /* sha3.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F22171BD9C400298F73 /* sha3.h */; };
+		879DD684171FE8DD0004536B /* shacal2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F24171BD9C400298F73 /* shacal2.h */; };
+		879DD685171FE8DD0004536B /* shark.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F26171BD9C400298F73 /* shark.h */; };
+		879DD686171FE8DD0004536B /* simple.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F29171BD9C400298F73 /* simple.h */; };
+		879DD687171FE8DD0004536B /* skipjack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F2B171BD9C400298F73 /* skipjack.h */; };
+		879DD688171FE8DD0004536B /* smartptr.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F2C171BD9C400298F73 /* smartptr.h */; };
+		879DD689171FE8DD0004536B /* socketft.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F2E171BD9C400298F73 /* socketft.h */; };
+		879DD68A171FE8DD0004536B /* sosemanuk.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F30171BD9C400298F73 /* sosemanuk.h */; };
+		879DD68B171FE8DD0004536B /* square.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F32171BD9C400298F73 /* square.h */; };
+		879DD68C171FE8DD0004536B /* stdcpp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F34171BD9C400298F73 /* stdcpp.h */; };
+		879DD68D171FE8DD0004536B /* strciphr.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F36171BD9C400298F73 /* strciphr.h */; };
+		879DD68E171FE8DD0004536B /* tea.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F38171BD9C400298F73 /* tea.h */; };
+		879DD68F171FE8DD0004536B /* tiger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F95171BD9C400298F73 /* tiger.h */; };
+		879DD690171FE8DD0004536B /* trdlocal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F98171BD9C400298F73 /* trdlocal.h */; };
+		879DD691171FE8DD0004536B /* trunhash.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F99171BD9C400298F73 /* trunhash.h */; };
+		879DD692171FE8DD0004536B /* ttmac.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F9B171BD9C400298F73 /* ttmac.h */; };
+		879DD693171FE8DD0004536B /* twofish.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99F9D171BD9C400298F73 /* twofish.h */; };
+		879DD694171FE8DD0004536B /* vmac.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99FA3171BD9C400298F73 /* vmac.h */; };
+		879DD695171FE8DD0004536B /* wait.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99FA5171BD9C400298F73 /* wait.h */; };
+		879DD696171FE8DD0004536B /* wake.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99FA7171BD9C400298F73 /* wake.h */; };
+		879DD697171FE8DD0004536B /* whrlpool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99FA9171BD9C500298F73 /* whrlpool.h */; };
+		879DD698171FE8DD0004536B /* winpipes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99FAB171BD9C500298F73 /* winpipes.h */; };
+		879DD699171FE8DD0004536B /* words.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99FAC171BD9C500298F73 /* words.h */; };
+		879DD69A171FE8DD0004536B /* xtr.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99FB0171BD9C500298F73 /* xtr.h */; };
+		879DD69B171FE8DD0004536B /* xtrcrypt.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99FB2171BD9C500298F73 /* xtrcrypt.h */; };
+		879DD69C171FE8DD0004536B /* zdeflate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99FB4171BD9C500298F73 /* zdeflate.h */; };
+		879DD69D171FE8DD0004536B /* zinflate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99FB6171BD9C500298F73 /* zinflate.h */; };
+		879DD69E171FE8DD0004536B /* zlib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99FB8171BD9C500298F73 /* zlib.h */; };
+		879DD69F171FE8DD0004536B /* cryptopp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87A99E35171BD97E00298F73 /* cryptopp.h */; };
 		87A99E31171BD97E00298F73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A99E30171BD97E00298F73 /* Foundation.framework */; };
-		87A99E36171BD97E00298F73 /* cryptopp.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E35171BD97E00298F73 /* cryptopp.h */; };
 		87A99E38171BD97E00298F73 /* cryptopp.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A99E37171BD97E00298F73 /* cryptopp.m */; };
 		87A99FB9171BD9C500298F73 /* 3way.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87A99E3E171BD9C400298F73 /* 3way.cpp */; };
 		87A99FBA171BD9C500298F73 /* adler32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87A99E41171BD9C400298F73 /* adler32.cpp */; };
@@ -135,140 +268,153 @@
 		87A9A03D171BD9C500298F73 /* zdeflate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87A99FB3171BD9C500298F73 /* zdeflate.cpp */; };
 		87A9A03E171BD9C500298F73 /* zinflate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87A99FB5171BD9C500298F73 /* zinflate.cpp */; };
 		87A9A03F171BD9C500298F73 /* zlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87A99FB7171BD9C500298F73 /* zlib.cpp */; };
-		87A9A040171BDBC800298F73 /* 3way.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E3F171BD9C400298F73 /* 3way.h */; };
-		87A9A041171BDBC800298F73 /* adler32.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E42171BD9C400298F73 /* adler32.h */; };
-		87A9A042171BDBC800298F73 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E43171BD9C400298F73 /* aes.h */; };
-		87A9A043171BDBC800298F73 /* algebra.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E45171BD9C400298F73 /* algebra.h */; };
-		87A9A044171BDBC800298F73 /* algparam.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E47171BD9C400298F73 /* algparam.h */; };
-		87A9A045171BDBC800298F73 /* arc4.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E49171BD9C400298F73 /* arc4.h */; };
-		87A9A046171BDBC800298F73 /* argnames.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E4A171BD9C400298F73 /* argnames.h */; };
-		87A9A047171BDBC800298F73 /* asn.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E4C171BD9C400298F73 /* asn.h */; };
-		87A9A048171BDBC800298F73 /* authenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E4E171BD9C400298F73 /* authenc.h */; };
-		87A9A049171BDBC800298F73 /* base32.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E50171BD9C400298F73 /* base32.h */; };
-		87A9A04A171BDBC800298F73 /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E52171BD9C400298F73 /* base64.h */; };
-		87A9A04B171BDBC800298F73 /* basecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E54171BD9C400298F73 /* basecode.h */; };
-		87A9A04D171BDBC800298F73 /* blowfish.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E5A171BD9C400298F73 /* blowfish.h */; };
-		87A9A04E171BDBC800298F73 /* blumshub.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E5C171BD9C400298F73 /* blumshub.h */; };
-		87A9A04F171BDBC800298F73 /* camellia.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E5E171BD9C400298F73 /* camellia.h */; };
-		87A9A050171BDBC800298F73 /* cast.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E60171BD9C400298F73 /* cast.h */; };
-		87A9A051171BDBC800298F73 /* cbcmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E63171BD9C400298F73 /* cbcmac.h */; };
-		87A9A052171BDBC800298F73 /* ccm.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E65171BD9C400298F73 /* ccm.h */; };
-		87A9A053171BDBC800298F73 /* channels.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E67171BD9C400298F73 /* channels.h */; };
-		87A9A054171BDBC800298F73 /* cmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E69171BD9C400298F73 /* cmac.h */; };
-		87A9A055171BDBC800298F73 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E6A171BD9C400298F73 /* config.h */; };
-		87A9A056171BDBC800298F73 /* cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E6C171BD9C400298F73 /* cpu.h */; };
-		87A9A057171BDBC800298F73 /* crc.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E6E171BD9C400298F73 /* crc.h */; };
-		87A9A058171BDBC800298F73 /* cryptlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E7C171BD9C400298F73 /* cryptlib.h */; };
-		87A9A059171BDBC800298F73 /* default.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E81171BD9C400298F73 /* default.h */; };
-		87A9A05A171BDBC800298F73 /* des.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E83171BD9C400298F73 /* des.h */; };
-		87A9A05B171BDBC800298F73 /* dh.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E86171BD9C400298F73 /* dh.h */; };
-		87A9A05C171BDBC800298F73 /* dh2.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E88171BD9C400298F73 /* dh2.h */; };
-		87A9A05D171BDBC800298F73 /* dll.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E8A171BD9C400298F73 /* dll.h */; };
-		87A9A05E171BDBC800298F73 /* dmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E8E171BD9C400298F73 /* dmac.h */; };
-		87A9A05F171BDBC800298F73 /* dsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E91171BD9C400298F73 /* dsa.h */; };
-		87A9A060171BDBC800298F73 /* eax.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E93171BD9C400298F73 /* eax.h */; };
-		87A9A061171BDBC800298F73 /* ec2n.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E95171BD9C400298F73 /* ec2n.h */; };
-		87A9A062171BDBC800298F73 /* eccrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E97171BD9C400298F73 /* eccrypto.h */; };
-		87A9A063171BDBC800298F73 /* ecp.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E99171BD9C400298F73 /* ecp.h */; };
-		87A9A064171BDBC800298F73 /* elgamal.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E9B171BD9C400298F73 /* elgamal.h */; };
-		87A9A065171BDBC800298F73 /* emsa2.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E9D171BD9C400298F73 /* emsa2.h */; };
-		87A9A066171BDBC800298F73 /* eprecomp.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99E9F171BD9C400298F73 /* eprecomp.h */; };
-		87A9A067171BDBC800298F73 /* esign.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EA1171BD9C400298F73 /* esign.h */; };
-		87A9A068171BDBC800298F73 /* factory.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EA2171BD9C400298F73 /* factory.h */; };
-		87A9A069171BDBC800298F73 /* files.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EA4171BD9C400298F73 /* files.h */; };
-		87A9A06A171BDBC800298F73 /* filters.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EA6171BD9C400298F73 /* filters.h */; };
-		87A9A06B171BDBC800298F73 /* fips140.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EA8171BD9C400298F73 /* fips140.h */; };
-		87A9A06C171BDBC800298F73 /* fltrimpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EAB171BD9C400298F73 /* fltrimpl.h */; };
-		87A9A06D171BDBC800298F73 /* gcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EAD171BD9C400298F73 /* gcm.h */; };
-		87A9A06E171BDBC800298F73 /* gf2_32.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EAF171BD9C400298F73 /* gf2_32.h */; };
-		87A9A06F171BDBC800298F73 /* gf2n.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EB1171BD9C400298F73 /* gf2n.h */; };
-		87A9A070171BDBC800298F73 /* gf256.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EB3171BD9C400298F73 /* gf256.h */; };
-		87A9A071171BDBC800298F73 /* gfpcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EB5171BD9C400298F73 /* gfpcrypt.h */; };
-		87A9A072171BDBC800298F73 /* gost.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EB8171BD9C400298F73 /* gost.h */; };
-		87A9A073171BDBC800298F73 /* gzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EBA171BD9C400298F73 /* gzip.h */; };
-		87A9A074171BDBC800298F73 /* hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EBC171BD9C400298F73 /* hex.h */; };
-		87A9A075171BDBC800298F73 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EBE171BD9C400298F73 /* hmac.h */; };
-		87A9A076171BDBC800298F73 /* hrtimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EC0171BD9C400298F73 /* hrtimer.h */; };
-		87A9A077171BDBC800298F73 /* ida.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EC2171BD9C400298F73 /* ida.h */; };
-		87A9A078171BDBC800298F73 /* idea.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EC4171BD9C400298F73 /* idea.h */; };
-		87A9A079171BDBC800298F73 /* integer.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EC6171BD9C400298F73 /* integer.h */; };
-		87A9A07A171BDBC800298F73 /* iterhash.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EC8171BD9C400298F73 /* iterhash.h */; };
-		87A9A07B171BDBC800298F73 /* lubyrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99ECA171BD9C400298F73 /* lubyrack.h */; };
-		87A9A07C171BDBC800298F73 /* luc.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99ECC171BD9C400298F73 /* luc.h */; };
-		87A9A07D171BDBC800298F73 /* mars.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99ECE171BD9C400298F73 /* mars.h */; };
-		87A9A07E171BDBC800298F73 /* md2.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99ED1171BD9C400298F73 /* md2.h */; };
-		87A9A07F171BDBC800298F73 /* md4.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99ED3171BD9C400298F73 /* md4.h */; };
-		87A9A080171BDBC800298F73 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99ED5171BD9C400298F73 /* md5.h */; };
-		87A9A081171BDBC800298F73 /* mdc.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99ED6171BD9C400298F73 /* mdc.h */; };
-		87A9A082171BDBC800298F73 /* misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99ED8171BD9C400298F73 /* misc.h */; };
-		87A9A083171BDBC800298F73 /* modarith.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99ED9171BD9C400298F73 /* modarith.h */; };
-		87A9A084171BDBC800298F73 /* modes.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EDB171BD9C400298F73 /* modes.h */; };
-		87A9A085171BDBC800298F73 /* modexppc.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EDC171BD9C400298F73 /* modexppc.h */; };
-		87A9A086171BDBC800298F73 /* mqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EDE171BD9C400298F73 /* mqueue.h */; };
-		87A9A087171BDBC800298F73 /* mqv.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EE0171BD9C400298F73 /* mqv.h */; };
-		87A9A088171BDBC800298F73 /* nbtheory.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EE2171BD9C400298F73 /* nbtheory.h */; };
-		87A9A089171BDBC800298F73 /* network.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EE4171BD9C400298F73 /* network.h */; };
-		87A9A08A171BDBC800298F73 /* nr.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EE5171BD9C400298F73 /* nr.h */; };
-		87A9A08B171BDBC800298F73 /* oaep.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EE7171BD9C400298F73 /* oaep.h */; };
-		87A9A08C171BDBC800298F73 /* oids.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EE8171BD9C400298F73 /* oids.h */; };
-		87A9A08D171BDBC800298F73 /* osrng.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EEA171BD9C400298F73 /* osrng.h */; };
-		87A9A08E171BDBC800298F73 /* panama.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EEC171BD9C400298F73 /* panama.h */; };
-		87A9A08F171BDBC800298F73 /* pch.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EEE171BD9C400298F73 /* pch.h */; };
-		87A9A090171BDBC800298F73 /* pkcspad.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EF0171BD9C400298F73 /* pkcspad.h */; };
-		87A9A091171BDBC800298F73 /* polynomi.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EF2171BD9C400298F73 /* polynomi.h */; };
-		87A9A092171BDBC800298F73 /* pssr.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EF4171BD9C400298F73 /* pssr.h */; };
-		87A9A093171BDBC800298F73 /* pubkey.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EF6171BD9C400298F73 /* pubkey.h */; };
-		87A9A094171BDBC800298F73 /* pwdbased.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EF7171BD9C400298F73 /* pwdbased.h */; };
-		87A9A095171BDBC800298F73 /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EF9171BD9C400298F73 /* queue.h */; };
-		87A9A096171BDBC800298F73 /* rabin.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EFB171BD9C400298F73 /* rabin.h */; };
-		87A9A097171BDBC800298F73 /* randpool.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EFD171BD9C400298F73 /* randpool.h */; };
-		87A9A098171BDBC800298F73 /* rc2.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99EFF171BD9C400298F73 /* rc2.h */; };
-		87A9A099171BDBC800298F73 /* rc5.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F01171BD9C400298F73 /* rc5.h */; };
-		87A9A09A171BDBC800298F73 /* rc6.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F03171BD9C400298F73 /* rc6.h */; };
-		87A9A09B171BDBC800298F73 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F07171BD9C400298F73 /* resource.h */; };
-		87A9A09C171BDBC800298F73 /* rijndael.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F09171BD9C400298F73 /* rijndael.h */; };
-		87A9A09D171BDBC800298F73 /* ripemd.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F0B171BD9C400298F73 /* ripemd.h */; };
-		87A9A09E171BDBC800298F73 /* rng.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F0D171BD9C400298F73 /* rng.h */; };
-		87A9A09F171BDBC800298F73 /* rsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F0F171BD9C400298F73 /* rsa.h */; };
-		87A9A0A0171BDBC800298F73 /* rw.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F11171BD9C400298F73 /* rw.h */; };
-		87A9A0A1171BDBC800298F73 /* safer.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F13171BD9C400298F73 /* safer.h */; };
-		87A9A0A2171BDBC800298F73 /* salsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F15171BD9C400298F73 /* salsa.h */; };
-		87A9A0A3171BDBC800298F73 /* seal.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F17171BD9C400298F73 /* seal.h */; };
-		87A9A0A4171BDBC800298F73 /* secblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F18171BD9C400298F73 /* secblock.h */; };
-		87A9A0A5171BDBC800298F73 /* seckey.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F19171BD9C400298F73 /* seckey.h */; };
-		87A9A0A6171BDBC800298F73 /* seed.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F1B171BD9C400298F73 /* seed.h */; };
-		87A9A0A7171BDBC800298F73 /* serpent.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F1D171BD9C400298F73 /* serpent.h */; };
-		87A9A0A8171BDBC800298F73 /* serpentp.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F1E171BD9C400298F73 /* serpentp.h */; };
-		87A9A0A9171BDBC800298F73 /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F20171BD9C400298F73 /* sha.h */; };
-		87A9A0AA171BDBC800298F73 /* sha3.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F22171BD9C400298F73 /* sha3.h */; };
-		87A9A0AB171BDBC800298F73 /* shacal2.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F24171BD9C400298F73 /* shacal2.h */; };
-		87A9A0AC171BDBC800298F73 /* shark.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F26171BD9C400298F73 /* shark.h */; };
-		87A9A0AD171BDBC800298F73 /* simple.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F29171BD9C400298F73 /* simple.h */; };
-		87A9A0AE171BDBC800298F73 /* skipjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F2B171BD9C400298F73 /* skipjack.h */; };
-		87A9A0AF171BDBC800298F73 /* smartptr.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F2C171BD9C400298F73 /* smartptr.h */; };
-		87A9A0B0171BDBC800298F73 /* socketft.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F2E171BD9C400298F73 /* socketft.h */; };
-		87A9A0B1171BDBC800298F73 /* sosemanuk.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F30171BD9C400298F73 /* sosemanuk.h */; };
-		87A9A0B2171BDBC800298F73 /* square.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F32171BD9C400298F73 /* square.h */; };
-		87A9A0B3171BDBC800298F73 /* stdcpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F34171BD9C400298F73 /* stdcpp.h */; };
-		87A9A0B4171BDBC800298F73 /* strciphr.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F36171BD9C400298F73 /* strciphr.h */; };
-		87A9A0B5171BDBC800298F73 /* tea.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F38171BD9C400298F73 /* tea.h */; };
-		87A9A0B6171BDBC800298F73 /* tiger.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F95171BD9C400298F73 /* tiger.h */; };
-		87A9A0B7171BDBC800298F73 /* trdlocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F98171BD9C400298F73 /* trdlocal.h */; };
-		87A9A0B8171BDBC800298F73 /* trunhash.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F99171BD9C400298F73 /* trunhash.h */; };
-		87A9A0B9171BDBC800298F73 /* ttmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F9B171BD9C400298F73 /* ttmac.h */; };
-		87A9A0BA171BDBC800298F73 /* twofish.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99F9D171BD9C400298F73 /* twofish.h */; };
-		87A9A0BC171BDBC800298F73 /* vmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99FA3171BD9C400298F73 /* vmac.h */; };
-		87A9A0BD171BDBC800298F73 /* wait.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99FA5171BD9C400298F73 /* wait.h */; };
-		87A9A0BE171BDBC800298F73 /* wake.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99FA7171BD9C400298F73 /* wake.h */; };
-		87A9A0BF171BDBC800298F73 /* whrlpool.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99FA9171BD9C500298F73 /* whrlpool.h */; };
-		87A9A0C0171BDBC800298F73 /* winpipes.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99FAB171BD9C500298F73 /* winpipes.h */; };
-		87A9A0C1171BDBC800298F73 /* words.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99FAC171BD9C500298F73 /* words.h */; };
-		87A9A0C2171BDBC800298F73 /* xtr.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99FB0171BD9C500298F73 /* xtr.h */; };
-		87A9A0C3171BDBC800298F73 /* xtrcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99FB2171BD9C500298F73 /* xtrcrypt.h */; };
-		87A9A0C4171BDBC800298F73 /* zdeflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99FB4171BD9C500298F73 /* zdeflate.h */; };
-		87A9A0C5171BDBC800298F73 /* zinflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99FB6171BD9C500298F73 /* zinflate.h */; };
-		87A9A0C6171BDBC800298F73 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A99FB8171BD9C500298F73 /* zlib.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		879DD619171FE8AE0004536B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				879DD61A171FE8DD0004536B /* 3way.h in CopyFiles */,
+				879DD61B171FE8DD0004536B /* adler32.h in CopyFiles */,
+				879DD61C171FE8DD0004536B /* aes.h in CopyFiles */,
+				879DD61D171FE8DD0004536B /* algebra.h in CopyFiles */,
+				879DD61E171FE8DD0004536B /* algparam.h in CopyFiles */,
+				879DD61F171FE8DD0004536B /* arc4.h in CopyFiles */,
+				879DD620171FE8DD0004536B /* argnames.h in CopyFiles */,
+				879DD621171FE8DD0004536B /* asn.h in CopyFiles */,
+				879DD622171FE8DD0004536B /* authenc.h in CopyFiles */,
+				879DD623171FE8DD0004536B /* base32.h in CopyFiles */,
+				879DD624171FE8DD0004536B /* base64.h in CopyFiles */,
+				879DD625171FE8DD0004536B /* basecode.h in CopyFiles */,
+				879DD626171FE8DD0004536B /* blowfish.h in CopyFiles */,
+				879DD627171FE8DD0004536B /* blumshub.h in CopyFiles */,
+				879DD628171FE8DD0004536B /* camellia.h in CopyFiles */,
+				879DD629171FE8DD0004536B /* cast.h in CopyFiles */,
+				879DD62A171FE8DD0004536B /* cbcmac.h in CopyFiles */,
+				879DD62B171FE8DD0004536B /* ccm.h in CopyFiles */,
+				879DD62C171FE8DD0004536B /* channels.h in CopyFiles */,
+				879DD62D171FE8DD0004536B /* cmac.h in CopyFiles */,
+				879DD62E171FE8DD0004536B /* config.h in CopyFiles */,
+				879DD62F171FE8DD0004536B /* cpu.h in CopyFiles */,
+				879DD630171FE8DD0004536B /* crc.h in CopyFiles */,
+				879DD631171FE8DD0004536B /* cryptlib.h in CopyFiles */,
+				879DD632171FE8DD0004536B /* default.h in CopyFiles */,
+				879DD633171FE8DD0004536B /* des.h in CopyFiles */,
+				879DD634171FE8DD0004536B /* dh.h in CopyFiles */,
+				879DD635171FE8DD0004536B /* dh2.h in CopyFiles */,
+				879DD636171FE8DD0004536B /* dll.h in CopyFiles */,
+				879DD637171FE8DD0004536B /* dmac.h in CopyFiles */,
+				879DD638171FE8DD0004536B /* dsa.h in CopyFiles */,
+				879DD639171FE8DD0004536B /* eax.h in CopyFiles */,
+				879DD63A171FE8DD0004536B /* ec2n.h in CopyFiles */,
+				879DD63B171FE8DD0004536B /* eccrypto.h in CopyFiles */,
+				879DD63C171FE8DD0004536B /* ecp.h in CopyFiles */,
+				879DD63D171FE8DD0004536B /* elgamal.h in CopyFiles */,
+				879DD63E171FE8DD0004536B /* emsa2.h in CopyFiles */,
+				879DD63F171FE8DD0004536B /* eprecomp.h in CopyFiles */,
+				879DD640171FE8DD0004536B /* esign.h in CopyFiles */,
+				879DD641171FE8DD0004536B /* factory.h in CopyFiles */,
+				879DD642171FE8DD0004536B /* files.h in CopyFiles */,
+				879DD643171FE8DD0004536B /* filters.h in CopyFiles */,
+				879DD644171FE8DD0004536B /* fips140.h in CopyFiles */,
+				879DD645171FE8DD0004536B /* fltrimpl.h in CopyFiles */,
+				879DD646171FE8DD0004536B /* gcm.h in CopyFiles */,
+				879DD647171FE8DD0004536B /* gf2_32.h in CopyFiles */,
+				879DD648171FE8DD0004536B /* gf2n.h in CopyFiles */,
+				879DD649171FE8DD0004536B /* gf256.h in CopyFiles */,
+				879DD64A171FE8DD0004536B /* gfpcrypt.h in CopyFiles */,
+				879DD64B171FE8DD0004536B /* gost.h in CopyFiles */,
+				879DD64C171FE8DD0004536B /* gzip.h in CopyFiles */,
+				879DD64D171FE8DD0004536B /* hex.h in CopyFiles */,
+				879DD64E171FE8DD0004536B /* hmac.h in CopyFiles */,
+				879DD64F171FE8DD0004536B /* hrtimer.h in CopyFiles */,
+				879DD650171FE8DD0004536B /* ida.h in CopyFiles */,
+				879DD651171FE8DD0004536B /* idea.h in CopyFiles */,
+				879DD652171FE8DD0004536B /* integer.h in CopyFiles */,
+				879DD653171FE8DD0004536B /* iterhash.h in CopyFiles */,
+				879DD654171FE8DD0004536B /* lubyrack.h in CopyFiles */,
+				879DD655171FE8DD0004536B /* luc.h in CopyFiles */,
+				879DD656171FE8DD0004536B /* mars.h in CopyFiles */,
+				879DD657171FE8DD0004536B /* md2.h in CopyFiles */,
+				879DD658171FE8DD0004536B /* md4.h in CopyFiles */,
+				879DD659171FE8DD0004536B /* md5.h in CopyFiles */,
+				879DD65A171FE8DD0004536B /* mdc.h in CopyFiles */,
+				879DD65B171FE8DD0004536B /* misc.h in CopyFiles */,
+				879DD65C171FE8DD0004536B /* modarith.h in CopyFiles */,
+				879DD65D171FE8DD0004536B /* modes.h in CopyFiles */,
+				879DD65E171FE8DD0004536B /* modexppc.h in CopyFiles */,
+				879DD65F171FE8DD0004536B /* mqueue.h in CopyFiles */,
+				879DD660171FE8DD0004536B /* mqv.h in CopyFiles */,
+				879DD661171FE8DD0004536B /* nbtheory.h in CopyFiles */,
+				879DD662171FE8DD0004536B /* network.h in CopyFiles */,
+				879DD663171FE8DD0004536B /* nr.h in CopyFiles */,
+				879DD664171FE8DD0004536B /* oaep.h in CopyFiles */,
+				879DD665171FE8DD0004536B /* oids.h in CopyFiles */,
+				879DD666171FE8DD0004536B /* osrng.h in CopyFiles */,
+				879DD667171FE8DD0004536B /* panama.h in CopyFiles */,
+				879DD668171FE8DD0004536B /* pch.h in CopyFiles */,
+				879DD669171FE8DD0004536B /* pkcspad.h in CopyFiles */,
+				879DD66A171FE8DD0004536B /* polynomi.h in CopyFiles */,
+				879DD66B171FE8DD0004536B /* pssr.h in CopyFiles */,
+				879DD66C171FE8DD0004536B /* pubkey.h in CopyFiles */,
+				879DD66D171FE8DD0004536B /* pwdbased.h in CopyFiles */,
+				879DD66E171FE8DD0004536B /* queue.h in CopyFiles */,
+				879DD66F171FE8DD0004536B /* rabin.h in CopyFiles */,
+				879DD670171FE8DD0004536B /* randpool.h in CopyFiles */,
+				879DD671171FE8DD0004536B /* rc2.h in CopyFiles */,
+				879DD672171FE8DD0004536B /* rc5.h in CopyFiles */,
+				879DD673171FE8DD0004536B /* rc6.h in CopyFiles */,
+				879DD674171FE8DD0004536B /* resource.h in CopyFiles */,
+				879DD675171FE8DD0004536B /* rijndael.h in CopyFiles */,
+				879DD676171FE8DD0004536B /* ripemd.h in CopyFiles */,
+				879DD677171FE8DD0004536B /* rng.h in CopyFiles */,
+				879DD678171FE8DD0004536B /* rsa.h in CopyFiles */,
+				879DD679171FE8DD0004536B /* rw.h in CopyFiles */,
+				879DD67A171FE8DD0004536B /* safer.h in CopyFiles */,
+				879DD67B171FE8DD0004536B /* salsa.h in CopyFiles */,
+				879DD67C171FE8DD0004536B /* seal.h in CopyFiles */,
+				879DD67D171FE8DD0004536B /* secblock.h in CopyFiles */,
+				879DD67E171FE8DD0004536B /* seckey.h in CopyFiles */,
+				879DD67F171FE8DD0004536B /* seed.h in CopyFiles */,
+				879DD680171FE8DD0004536B /* serpent.h in CopyFiles */,
+				879DD681171FE8DD0004536B /* serpentp.h in CopyFiles */,
+				879DD682171FE8DD0004536B /* sha.h in CopyFiles */,
+				879DD683171FE8DD0004536B /* sha3.h in CopyFiles */,
+				879DD684171FE8DD0004536B /* shacal2.h in CopyFiles */,
+				879DD685171FE8DD0004536B /* shark.h in CopyFiles */,
+				879DD686171FE8DD0004536B /* simple.h in CopyFiles */,
+				879DD687171FE8DD0004536B /* skipjack.h in CopyFiles */,
+				879DD688171FE8DD0004536B /* smartptr.h in CopyFiles */,
+				879DD689171FE8DD0004536B /* socketft.h in CopyFiles */,
+				879DD68A171FE8DD0004536B /* sosemanuk.h in CopyFiles */,
+				879DD68B171FE8DD0004536B /* square.h in CopyFiles */,
+				879DD68C171FE8DD0004536B /* stdcpp.h in CopyFiles */,
+				879DD68D171FE8DD0004536B /* strciphr.h in CopyFiles */,
+				879DD68E171FE8DD0004536B /* tea.h in CopyFiles */,
+				879DD68F171FE8DD0004536B /* tiger.h in CopyFiles */,
+				879DD690171FE8DD0004536B /* trdlocal.h in CopyFiles */,
+				879DD691171FE8DD0004536B /* trunhash.h in CopyFiles */,
+				879DD692171FE8DD0004536B /* ttmac.h in CopyFiles */,
+				879DD693171FE8DD0004536B /* twofish.h in CopyFiles */,
+				879DD694171FE8DD0004536B /* vmac.h in CopyFiles */,
+				879DD695171FE8DD0004536B /* wait.h in CopyFiles */,
+				879DD696171FE8DD0004536B /* wake.h in CopyFiles */,
+				879DD697171FE8DD0004536B /* whrlpool.h in CopyFiles */,
+				879DD698171FE8DD0004536B /* winpipes.h in CopyFiles */,
+				879DD699171FE8DD0004536B /* words.h in CopyFiles */,
+				879DD69A171FE8DD0004536B /* xtr.h in CopyFiles */,
+				879DD69B171FE8DD0004536B /* xtrcrypt.h in CopyFiles */,
+				879DD69C171FE8DD0004536B /* zdeflate.h in CopyFiles */,
+				879DD69D171FE8DD0004536B /* zinflate.h in CopyFiles */,
+				879DD69E171FE8DD0004536B /* zlib.h in CopyFiles */,
+				879DD69F171FE8DD0004536B /* cryptopp.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		87A99E2D171BD97E00298F73 /* libcryptopp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcryptopp.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -891,150 +1037,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		879DD617171FE4E30004536B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87A9A040171BDBC800298F73 /* 3way.h in Headers */,
-				87A9A041171BDBC800298F73 /* adler32.h in Headers */,
-				87A9A042171BDBC800298F73 /* aes.h in Headers */,
-				87A9A043171BDBC800298F73 /* algebra.h in Headers */,
-				87A9A044171BDBC800298F73 /* algparam.h in Headers */,
-				87A9A045171BDBC800298F73 /* arc4.h in Headers */,
-				87A9A046171BDBC800298F73 /* argnames.h in Headers */,
-				87A9A047171BDBC800298F73 /* asn.h in Headers */,
-				87A9A048171BDBC800298F73 /* authenc.h in Headers */,
-				87A9A049171BDBC800298F73 /* base32.h in Headers */,
-				87A9A04A171BDBC800298F73 /* base64.h in Headers */,
-				87A9A04B171BDBC800298F73 /* basecode.h in Headers */,
-				87A9A04D171BDBC800298F73 /* blowfish.h in Headers */,
-				87A9A04E171BDBC800298F73 /* blumshub.h in Headers */,
-				87A9A04F171BDBC800298F73 /* camellia.h in Headers */,
-				87A9A050171BDBC800298F73 /* cast.h in Headers */,
-				87A9A051171BDBC800298F73 /* cbcmac.h in Headers */,
-				87A9A052171BDBC800298F73 /* ccm.h in Headers */,
-				87A9A053171BDBC800298F73 /* channels.h in Headers */,
-				87A9A054171BDBC800298F73 /* cmac.h in Headers */,
-				87A9A055171BDBC800298F73 /* config.h in Headers */,
-				87A9A056171BDBC800298F73 /* cpu.h in Headers */,
-				87A9A057171BDBC800298F73 /* crc.h in Headers */,
-				87A9A058171BDBC800298F73 /* cryptlib.h in Headers */,
-				87A9A059171BDBC800298F73 /* default.h in Headers */,
-				87A9A05A171BDBC800298F73 /* des.h in Headers */,
-				87A9A05B171BDBC800298F73 /* dh.h in Headers */,
-				87A9A05C171BDBC800298F73 /* dh2.h in Headers */,
-				87A9A05D171BDBC800298F73 /* dll.h in Headers */,
-				87A9A05E171BDBC800298F73 /* dmac.h in Headers */,
-				87A9A05F171BDBC800298F73 /* dsa.h in Headers */,
-				87A9A060171BDBC800298F73 /* eax.h in Headers */,
-				87A9A061171BDBC800298F73 /* ec2n.h in Headers */,
-				87A9A062171BDBC800298F73 /* eccrypto.h in Headers */,
-				87A9A063171BDBC800298F73 /* ecp.h in Headers */,
-				87A9A064171BDBC800298F73 /* elgamal.h in Headers */,
-				87A9A065171BDBC800298F73 /* emsa2.h in Headers */,
-				87A9A066171BDBC800298F73 /* eprecomp.h in Headers */,
-				87A9A067171BDBC800298F73 /* esign.h in Headers */,
-				87A9A068171BDBC800298F73 /* factory.h in Headers */,
-				87A9A069171BDBC800298F73 /* files.h in Headers */,
-				87A9A06A171BDBC800298F73 /* filters.h in Headers */,
-				87A9A06B171BDBC800298F73 /* fips140.h in Headers */,
-				87A9A06C171BDBC800298F73 /* fltrimpl.h in Headers */,
-				87A9A06D171BDBC800298F73 /* gcm.h in Headers */,
-				87A9A06E171BDBC800298F73 /* gf2_32.h in Headers */,
-				87A9A06F171BDBC800298F73 /* gf2n.h in Headers */,
-				87A9A070171BDBC800298F73 /* gf256.h in Headers */,
-				87A9A071171BDBC800298F73 /* gfpcrypt.h in Headers */,
-				87A9A072171BDBC800298F73 /* gost.h in Headers */,
-				87A9A073171BDBC800298F73 /* gzip.h in Headers */,
-				87A9A074171BDBC800298F73 /* hex.h in Headers */,
-				87A9A075171BDBC800298F73 /* hmac.h in Headers */,
-				87A9A076171BDBC800298F73 /* hrtimer.h in Headers */,
-				87A9A077171BDBC800298F73 /* ida.h in Headers */,
-				87A9A078171BDBC800298F73 /* idea.h in Headers */,
-				87A9A079171BDBC800298F73 /* integer.h in Headers */,
-				87A9A07A171BDBC800298F73 /* iterhash.h in Headers */,
-				87A9A07B171BDBC800298F73 /* lubyrack.h in Headers */,
-				87A9A07C171BDBC800298F73 /* luc.h in Headers */,
-				87A9A07D171BDBC800298F73 /* mars.h in Headers */,
-				87A9A07E171BDBC800298F73 /* md2.h in Headers */,
-				87A9A07F171BDBC800298F73 /* md4.h in Headers */,
-				87A9A080171BDBC800298F73 /* md5.h in Headers */,
-				87A9A081171BDBC800298F73 /* mdc.h in Headers */,
-				87A9A082171BDBC800298F73 /* misc.h in Headers */,
-				87A9A083171BDBC800298F73 /* modarith.h in Headers */,
-				87A9A084171BDBC800298F73 /* modes.h in Headers */,
-				87A9A085171BDBC800298F73 /* modexppc.h in Headers */,
-				87A9A086171BDBC800298F73 /* mqueue.h in Headers */,
-				87A9A087171BDBC800298F73 /* mqv.h in Headers */,
-				87A9A088171BDBC800298F73 /* nbtheory.h in Headers */,
-				87A9A089171BDBC800298F73 /* network.h in Headers */,
-				87A9A08A171BDBC800298F73 /* nr.h in Headers */,
-				87A9A08B171BDBC800298F73 /* oaep.h in Headers */,
-				87A9A08C171BDBC800298F73 /* oids.h in Headers */,
-				87A9A08D171BDBC800298F73 /* osrng.h in Headers */,
-				87A9A08E171BDBC800298F73 /* panama.h in Headers */,
-				87A9A08F171BDBC800298F73 /* pch.h in Headers */,
-				87A9A090171BDBC800298F73 /* pkcspad.h in Headers */,
-				87A9A091171BDBC800298F73 /* polynomi.h in Headers */,
-				87A9A092171BDBC800298F73 /* pssr.h in Headers */,
-				87A9A093171BDBC800298F73 /* pubkey.h in Headers */,
-				87A9A094171BDBC800298F73 /* pwdbased.h in Headers */,
-				87A9A095171BDBC800298F73 /* queue.h in Headers */,
-				87A9A096171BDBC800298F73 /* rabin.h in Headers */,
-				87A9A097171BDBC800298F73 /* randpool.h in Headers */,
-				87A9A098171BDBC800298F73 /* rc2.h in Headers */,
-				87A9A099171BDBC800298F73 /* rc5.h in Headers */,
-				87A9A09A171BDBC800298F73 /* rc6.h in Headers */,
-				87A9A09B171BDBC800298F73 /* resource.h in Headers */,
-				87A9A09C171BDBC800298F73 /* rijndael.h in Headers */,
-				87A9A09D171BDBC800298F73 /* ripemd.h in Headers */,
-				87A9A09E171BDBC800298F73 /* rng.h in Headers */,
-				87A9A09F171BDBC800298F73 /* rsa.h in Headers */,
-				87A9A0A0171BDBC800298F73 /* rw.h in Headers */,
-				87A9A0A1171BDBC800298F73 /* safer.h in Headers */,
-				87A9A0A2171BDBC800298F73 /* salsa.h in Headers */,
-				87A9A0A3171BDBC800298F73 /* seal.h in Headers */,
-				87A9A0A4171BDBC800298F73 /* secblock.h in Headers */,
-				87A9A0A5171BDBC800298F73 /* seckey.h in Headers */,
-				87A9A0A6171BDBC800298F73 /* seed.h in Headers */,
-				87A9A0A7171BDBC800298F73 /* serpent.h in Headers */,
-				87A9A0A8171BDBC800298F73 /* serpentp.h in Headers */,
-				87A9A0A9171BDBC800298F73 /* sha.h in Headers */,
-				87A9A0AA171BDBC800298F73 /* sha3.h in Headers */,
-				87A9A0AB171BDBC800298F73 /* shacal2.h in Headers */,
-				87A9A0AC171BDBC800298F73 /* shark.h in Headers */,
-				87A9A0AD171BDBC800298F73 /* simple.h in Headers */,
-				87A9A0AE171BDBC800298F73 /* skipjack.h in Headers */,
-				87A9A0AF171BDBC800298F73 /* smartptr.h in Headers */,
-				87A9A0B0171BDBC800298F73 /* socketft.h in Headers */,
-				87A9A0B1171BDBC800298F73 /* sosemanuk.h in Headers */,
-				87A9A0B2171BDBC800298F73 /* square.h in Headers */,
-				87A9A0B3171BDBC800298F73 /* stdcpp.h in Headers */,
-				87A9A0B4171BDBC800298F73 /* strciphr.h in Headers */,
-				87A9A0B5171BDBC800298F73 /* tea.h in Headers */,
-				87A9A0B6171BDBC800298F73 /* tiger.h in Headers */,
-				87A9A0B7171BDBC800298F73 /* trdlocal.h in Headers */,
-				87A9A0B8171BDBC800298F73 /* trunhash.h in Headers */,
-				87A9A0B9171BDBC800298F73 /* ttmac.h in Headers */,
-				87A9A0BA171BDBC800298F73 /* twofish.h in Headers */,
-				87A9A0BC171BDBC800298F73 /* vmac.h in Headers */,
-				87A9A0BD171BDBC800298F73 /* wait.h in Headers */,
-				87A9A0BE171BDBC800298F73 /* wake.h in Headers */,
-				87A9A0BF171BDBC800298F73 /* whrlpool.h in Headers */,
-				87A9A0C0171BDBC800298F73 /* winpipes.h in Headers */,
-				87A9A0C1171BDBC800298F73 /* words.h in Headers */,
-				87A9A0C2171BDBC800298F73 /* xtr.h in Headers */,
-				87A9A0C3171BDBC800298F73 /* xtrcrypt.h in Headers */,
-				87A9A0C4171BDBC800298F73 /* zdeflate.h in Headers */,
-				87A9A0C5171BDBC800298F73 /* zinflate.h in Headers */,
-				87A9A0C6171BDBC800298F73 /* zlib.h in Headers */,
-				87A99E36171BD97E00298F73 /* cryptopp.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		87A99E2C171BD97E00298F73 /* cryptopp */ = {
 			isa = PBXNativeTarget;
@@ -1042,7 +1044,7 @@
 			buildPhases = (
 				87A99E29171BD97E00298F73 /* Sources */,
 				87A99E2A171BD97E00298F73 /* Frameworks */,
-				879DD617171FE4E30004536B /* Headers */,
+				879DD619171FE8AE0004536B /* CopyFiles */,
 			);
 			buildRules = (
 			);
